@@ -3,8 +3,9 @@ var deliCue = []; //<<global variable to pass through multiple functions. Array 
 //This function takes an empty array and adds a customers name to the end of the curent legnth
 //returns a string using the concatenation method
 
+var num = 0
+
 function takeANumber(deliCue){
-  var num = 0;
   num++
   deliCue.push(num)
   return "Welcome. You are number " + num;
