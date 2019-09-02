@@ -5,8 +5,8 @@ var deliCue = []; //<<global variable to pass through multiple functions. Array 
 
 function takeANumber(deliCue){
   var num = 1;
-  if ()
-  return "Welcome. You are number " + deliCue.length;
+  deliCue.push(num)
+  return "Welcome. You are number " + num;
 
 //This function checks how many people are in line and removes them as they come on 
 
