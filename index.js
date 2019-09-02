@@ -4,10 +4,11 @@ var deliCue = []; //<<global variable to pass through multiple functions. Array 
 //returns a string using the concatenation method
 
 function takeANumber(deliCue){
-  var num = 1;
+  var num = 0;
+  num++
   deliCue.push(num)
   return "Welcome. You are number " + num;
-
+}
 //This function checks how many people are in line and removes them as they come on 
 
 function nowServing(deliCue){ 
